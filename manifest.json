@@ -1,0 +1,11 @@
+{
+    "name": "Chrome Block Keywords Extension",
+    "version": "1.0",
+    "description": "This Google Chrome extension blocks websites containing keywords in their url",
+    "permissions": ["tabs", "webNavigation"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "manifest_version": 2
+}
